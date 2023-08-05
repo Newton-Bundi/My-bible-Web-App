@@ -23,8 +23,8 @@ The project has the following contents:
 With these folders and files intact, the successful launch of the web application only involves opening the link provided in the next section (Link to live site).
 Additionally, you can fork the project to your own GitHub account, clone it to your local repository and open the HTML file through the bash command 'open index.html'
 
-**link to live site on GitHub Pages**
-
+**Link to live site on GitHub Pages**
+Apologies, currently, a link can not be provided but upon successful review of the project by my instructors I shall make it a public repository and hence will be able to include it in GitHub Pages.
 
 **License**
 This project is licensed under the terms of the GNU GENERAL PUBLIC LICENSE version 3.
