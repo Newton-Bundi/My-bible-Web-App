@@ -19,6 +19,9 @@ The project has the following contents:
     - a JSON file that can be used to store the submitted comments and passages from users
     - a license file containing detailed information on copyright and licensing for this project
     - this READme file
+ 
+With these folders and files intact, the successful launch of the web application only involves opening the link provided in the next section (Link to live site).
+Additionally, you can fork the project to your own GitHub account, clone it to your local repository and open the HTML file through the bash command 'open index.html'
 
 **link to live site on GitHub Pages**
 
