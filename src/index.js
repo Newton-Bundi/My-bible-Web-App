@@ -58,3 +58,20 @@ inputForm1.addEventListener('submit', (event) => {
     document.getElementById("notes-list").appendChild(node);
 
     });
+
+
+    const inputForm2 = document.querySelector('#notes-form');
+    inputForm1.addEventListener('submit', (event) => {
+    
+        event.preventDefault();
+    
+        // updating the DOM
+    
+        let notes = document.querySelector('#notes').value;
+    
+        let node = document.createElement("li");
+        let textnode = document.createTextNode(notes);
+        node.appendChild(textnode);
+        document.getElementById("notes-list").appendChild(node);
+    
+        });
