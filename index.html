@@ -16,17 +16,20 @@
         Upon initial load, the web page displays the most well-known verse: John 3:16. <br>
         You can choose a new verse and add comments on it and link it to a similar passage.<br>
         The end goal of this web page is to have a repository of different interpretations of verses based on the users.</h3>
-      <nav>
-        <img
+      <img
           id="image of the bible"
           alt="Your word is light unto my feet"
-          src="assets/image-placeholder.jpg"
+          src="assets/download.jpeg"
         />
-        <nav id="nav">
-          <a href="#Intro">Intro</a>
-          <a href="#Search-setion">Search section</a>
-          <a href="#Comments">Comments and Linked passages</a>
+      <nav class="topbar">
+       <ul>
+        <li><a href="#Intro" class="active">Intro</a></li>
+        <li><a href="#Search-section">Search</a></li>
+        <li><a href="#Comments">Notes and SImilar verses</a></li>
+      </ul>
       </nav>
+
+        
     </header>
 
     <main>
@@ -41,7 +44,7 @@
         <form id="notes-form">
           <label for="notes">Edited Description:</label>
           <textarea id="notes"></textarea>
-          <button type="submit">Update Beer</button>
+          <button type="submit">Submit your note</button>
         </form>
 
         <h3>Notes from others</h3>
@@ -52,7 +55,7 @@
         <form id="linked-form">
           <label for="passage">Similar verses:</label>
           <textarea id="passage"></textarea>
-          <button type="submit">Add review</button>
+          <button type="submit">Submit you linked verses</button>
         </form>
       </div>
       <script defer type="text/javascript" src="src/index.js"></script>
