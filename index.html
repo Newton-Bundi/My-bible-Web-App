@@ -10,44 +10,48 @@
 
   </head>
   <body>
-    <header>
+    <header id="Intro">
       <h1>My Bible App</h1>
-      <h3></h3>
+      <h3>This web application allows you to read verses from different bible versions and add comments and similar bible passages. <br>
+        Upon initial load, the web page displays the most well-known verse: John 3:16. <br>
+        You can choose a new verse and add comments on it and link it to a similar passage.<br>
+        The end goal of this web page is to have a repository of different interpretations of verses based on the users.</h3>
       <nav>
-        <ul id="beer-list">
-          <li>Beer Name</li>
-          <li>Another Beer Name</li>
-          <li>And Another Beer Name</li>
-        </ul>
+        <img
+          id="image of the bible"
+          alt="Your word is light unto my feet"
+          src="assets/image-placeholder.jpg"
+        />
+        <nav id="nav">
+          <a href="#Intro">Intro</a>
+          <a href="#Search-setion">Search section</a>
+          <a href="#Comments">Comments and Linked passages</a>
       </nav>
     </header>
 
     <main>
-      <div class="beer-details">
-        <h2 id="beer-name">Beer Name Goes Here</h2>
-        <img
-          id="beer-image"
-          alt="Beer Name Goes Here"
-          src="assets/image-placeholder.jpg"
-        />
+      <div id="Search-section">
+        <h2 id="book">book name</h2>
+        <h2 id="reference">verse reference</h2>
         <p>
-          <em id="beer-description">Beer Description Goes Here</em>
+          <em id="verse">Bible verse</em>
         </p>
 
-        <form id="description-form">
-          <label for="description">Edited Description:</label>
-          <textarea id="description"></textarea>
+        <h3>Your notes on the passage</h3>
+        <form id="notes-form">
+          <label for="notes">Edited Description:</label>
+          <textarea id="notes"></textarea>
           <button type="submit">Update Beer</button>
         </form>
 
-        <h3>Customer Reviews</h3>
-        <ul id="review-list">
-          <li>Replace with actual reviews</li>
-          <li>From the server</li>
+        <h3>Notes from others</h3>
+        <ul id="notes-list">
+          <li>Notes</li>
+          <li>Notes</li>
         </ul>
-        <form id="review-form">
-          <label for="review">Your Review:</label>
-          <textarea id="review"></textarea>
+        <form id="linked-form">
+          <label for="passage">Similar verses:</label>
+          <textarea id="passage"></textarea>
           <button type="submit">Add review</button>
         </form>
       </div>
