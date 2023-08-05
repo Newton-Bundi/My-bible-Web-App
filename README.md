@@ -1,12 +1,29 @@
 # My-bible-Web-App
+
+**Author**
+Newton Bundi
+
+**Description**
 This web application allows you to read verses from different bible versions and add comments and similar bible passages.
-Upon initial load, the web page displays the most well-known verse: John 3:16. 
+The web page displays the most well-known verse: John 3:16, once it's loaded or refreshed. 
 The user can then choose a new verse and add comments on it and link it to a similar passage.
 The end goal of this web page is to have a repository of different interpretations of verses based on the users.
 
+**Project setup instructions**
+The project has the following contents:
+- A folder named assets containing all the images used in the web page
+- A folder named src containing the javascript file
+- A folder named styles containing the CSS file used to style the web page
+- 4 files including:
+    - a html file containing the contents of the webpage
+    - a JSON file that can be used to store the submitted comments and passages from users
+    - a license file containing detailed information on copyright and licensing for this project
+    - this READme file
+
+**link to live site on GitHub Pages**
 
 
-# License
+**License**
 This project is licensed under the terms of the GNU GENERAL PUBLIC LICENSE version 3.
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
