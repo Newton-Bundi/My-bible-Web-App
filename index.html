@@ -10,20 +10,17 @@
 
   </head>
   <body>
-    <header id="Intro">
+    <header id="Header">
       <h1>My Bible App</h1>
-      <h3>This web application allows you to read verses from different bible versions and add comments and similar bible passages. <br>
-        Upon initial load, the web page displays the most well-known verse: John 3:16. <br>
-        You can choose a new verse and add comments on it and link it to a similar passage.<br>
-        The end goal of this web page is to have a repository of different interpretations of verses based on the users.</h3>
-      <img
-          id="image of the bible"
+      <h3>Your word is a lamp unto my feet <br> Psalms 119:105</h3>
+      <!-- <img
+          id="image1"
           alt="Your word is light unto my feet"
           src="assets/download.jpeg"
-        />
+        /> -->
       <nav class="topbar">
        <ul>
-        <li><a href="#Intro" class="active">Intro</a></li>
+        <li><a href="#Intro" class="active">About</a></li>
         <li><a href="#Search-section">Search</a></li>
         <li><a href="#Comments">Notes and SImilar verses</a></li>
       </ul>
@@ -33,13 +30,23 @@
     </header>
 
     <main>
+      <div id = "Intro">
+        <h2> About the web page</h2>
+        <p>This web application allows you to read verses from different bible versions and add comments and similar bible passages.<br>
+          Upon initial load, the web page displays the most well-known verse: John 3:16. <br>
+          The user can then choose a new verse and add comments on it and link it to a similar passage. <br>
+          The end goal of this web page is to have a repository of different interpretations of verses based on the users.</p>
+       </div>
+
       <div id="Search-section">
-        <h2 id="book">book name</h2>
+        <h2 id="book">Kindly pick a bible verse</h2>
         <h2 id="reference">verse reference</h2>
         <p>
           <em id="verse">Bible verse</em>
         </p>
+      </div>
 
+      <div>
         <h3>Your notes on the passage</h3>
         <form id="notes-form">
           <label for="notes">Edited Description:</label>

@@ -5,8 +5,17 @@ body {
     font-size: 14px;
     color: #404040;
   }
-  
+
+
+  #Header {
+    background-image: url("https://media.istockphoto.com/id/862656980/photo/man-walking-in-the-night.jpg?s=612x612&w=0&k=20&c=yWxiGgikzlPqe_wth9Y-L34jGOruyjpUnwKbKv39SKA=");
+    width:100%;
+    height: 400px;
+  }
+
+ 
   header {
+    text-align:center;
     justify-items: center;
     width: auto;
     height: auto;
@@ -16,11 +25,33 @@ body {
     padding: 10px;
     margin-right: 10px;
   }
-  
+
+ #Intro {
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+  }
+
+  #Search-section {
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+  }
+
   h1 {
     font-family: "Great Vibes", cursive;
-    font-size: 52px;
-    color: #3493d5;
+    font-size: 150px;
+    color: #dde5eb;
+    margin: 10px 0;
+  }
+
+
+  h3 {
+    font-family: "Great Vibes", serif;
+    font-size: 50px;
+    color: #8fbcdd;
     margin: 10px 0;
   }
   
@@ -61,11 +92,7 @@ body {
     background-color: #1ebba3;
  }
   
-  main {
-    float: left;
-    margin-left: 50px;
-    width: 600px;
-  }
+
   
   .beer-details h2 {
     font-size: 32px;
@@ -114,4 +141,5 @@ body {
     padding: 20px;
     margin-bottom: 20px;
   }
+
   
