@@ -69,17 +69,25 @@ body {
 }
 
 #notes-list {
+  float: left;
     justify-content: left;
     margin-top: 30px;
-    margin-left: 200px;
-    margin-right: 300px;
+    margin-left: 150px;
+    border-color:#a8a7a7 ;
+    border-width:  1px;
+    border-style: solid; 
+    background-color: #ecf0f3;
 }
 
 #passages-list {
+  float: right;
     justify-content: right;
     margin-top: 30px;
-    margin-left: 300px;
-    margin-right: 200px;
+    margin-right: 150px;
+    border-color:#a8a7a7 ;
+    border-width:  1px;
+    border-style: solid; 
+    background-color: #ecf0f3;
 
 }
 
@@ -89,7 +97,6 @@ body {
     margin-right: 200px;
     display: flex;
     font-style: normal;
-    justify-content: center;
     border-color:#a8a7a7 ;
     border-width:  1px;
     border-style: solid; 
