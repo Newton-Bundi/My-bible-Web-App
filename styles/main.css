@@ -40,6 +40,62 @@ body {
     margin: auto;
   }
 
+  #verse-submit {
+    margin-top: 10px;
+  }
+
+.data-entry {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+#Display {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-width: 2px;
+    border-style: inset;
+}
+
+.Comments {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    font-style: normal;
+    justify-content: center;
+}
+
+#notes-list {
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+#passages-list {
+    justify-content: right;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 200px;
+
+}
+
+.JSONdata {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    font-style: normal;
+    justify-content: center;
+    border-color:#a8a7a7 ;
+    border-width:  1px;
+    border-style: solid; 
+    background-color: #ecf0f3;
+}
+
   h1 {
     font-family: "Great Vibes", cursive;
     font-size: 150px;

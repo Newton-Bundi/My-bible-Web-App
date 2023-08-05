@@ -33,38 +33,85 @@
       <div id = "Intro">
         <h2> About the web page</h2>
         <p>This web application allows you to read verses from different bible versions and add comments and similar bible passages.<br>
-          Upon initial load, the web page displays the most well-known verse: John 3:16. <br>
-          The user can then choose a new verse and add comments on it and link it to a similar passage. <br>
-          The end goal of this web page is to have a repository of different interpretations of verses based on the users.</p>
+          The web page initially displays the most well-known verse: John 3:16. <br>
+          However, the user can then choose a new verse and add comments on it and link it to a similar passage. <br>
+          The aim of this web page is to have a repository of different interpretations of verses based on the users.</p>
        </div>
 
       <div id="Search-section">
-        <h2 id="book">Kindly pick a bible verse</h2>
-        <h2 id="reference">verse reference</h2>
-        <p>
-          <em id="verse">Bible verse</em>
-        </p>
+        <h2>Kindly pick a bible verse</h2>
+
+        <!-- book -->
+        <section class="data-entry">
+        <section id="book-entry" class ="entry">
+        <label for="book">Book:</label>
+        <select name="book" id="book">
+            <option value="genesis">Genesis</option>
+          <option value="psalms">Psalms</option>
+          <option value="john" selected>John</option>
+          <option value="revelations">Revelations</option>
+        </select>
+        </section>
+
+        <section id="chapter-entry" class ="entry">
+          <label for="chapter">Chapter:</label>
+          <select name="chapter" id="chapter">
+              <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+          </select>
+        </section>
+
+          <section id="verse-entry" class ="entry">
+            <label for="verse">Verse:</label>
+            <select name="verse" id="verse">
+                <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="16" selected>16</option>
+            </select>
+          </section>
+          </section>
+
+            <button id="verse-submit" type="submit">Search verse</button>
+
+          </div>
+          
+      <div id="Display">
+          <p id="text">Bible verse</p>
       </div>
 
-      <div>
-        <h3>Your notes on the passage</h3>
+      <div id="Comments" class="Comments">
+      <div id="Notes-div">
+        <h2>Your notes on the passage</h2>
         <form id="notes-form">
-          <label for="notes">Edited Description:</label>
+          <label for="notes"></label>
           <textarea id="notes"></textarea>
-          <button type="submit">Submit your note</button>
+          <button type="submit">Submit your notes</button>
         </form>
-
-        <h3>Notes from others</h3>
-        <ul id="notes-list">
-          <li>Notes</li>
-          <li>Notes</li>
-        </ul>
+      </div>
+      <div id="Passage-div">
+        <h2>Similar passages</h2>
         <form id="linked-form">
-          <label for="passage">Similar verses:</label>
+          <label for="passage"></label>
           <textarea id="passage"></textarea>
           <button type="submit">Submit you linked verses</button>
         </form>
       </div>
+    </div>
+
+    <div class="JSONdata">
+      <ul id="notes-list" class="lists" title="Saved notes">
+        <li>Saved Notes</li>
+        <li>Saved Notes</li>
+      </ul>   
+      <ul id="passages-list" class="lists" title="Saved notes">
+        <li>Saved Passages</li>
+        <li>Saved Passages</li>
+      </ul>
+    </div>
+
       <script defer type="text/javascript" src="src/index.js"></script>
     </main>
   </body>
